@@ -11,6 +11,30 @@
   letter-spacing: 0.02em;
 }
 
+.navbar-brand {
+  font-weight: 800;
+}
+
+.brand-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  color: #16283a;
+}
+
+.brand-wordmark__na,
+.brand-wordmark__ib {
+  color: #16283a;
+}
+
+.brand-wordmark__j {
+  color: #0d6b8f;
+  margin: 0 0.01em;
+}
+
 .navbar .nav-link {
   font-weight: 600;
   color: #19324a !important;
@@ -329,6 +353,10 @@
 }
 
 @media (max-width: 575.98px) {
+  .brand-wordmark {
+    font-size: 1.6rem;
+  }
+
   .home-section {
     padding: 4rem 0;
   }

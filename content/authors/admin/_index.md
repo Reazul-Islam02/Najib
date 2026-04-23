@@ -49,5 +49,5 @@ user_groups:
 
 <p align="justify">I am proficient in Bangla and English and remain committed to building a career in journalism through rigorous reporting, multimedia storytelling, and authentic public communication.</p>
 
-{{< icon name="linkedin" pack="fab" >}} Connect with me on [LinkedIn](https://www.linkedin.com/in/najib_kamran).
-{{< icon name="download" pack="fas" >}} Download my latest {{< staticref "files/Najib Kamran CV.pdf" "newtab" >}}<b>CV</b>{{< /staticref >}}.
+{{< icon name="linkedin" pack="fab" >}} Connect with me on [LinkedIn](https://www.linkedin.com/in/najib_kamran).<br>
+{{< icon name="download" pack="fas" >}} Download my latest {{< staticref "files/CV_MA-Halim2024.pdf" "newtab" >}}<b>CV</b>{{< /staticref >}}.
