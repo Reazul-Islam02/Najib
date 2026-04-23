@@ -1,0 +1,28 @@
+<script>
+  (function () {
+    function enableVideoAudio() {
+      var video = document.querySelector('.fancybox-slide--current video');
+      if (!video) {
+        return;
+      }
+      video.muted = false;
+      video.defaultMuted = false;
+      video.volume = 1;
+      video.controls = true;
+      var playPromise = video.play();
+      if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(function () {});
+      }
+    }
+
+    document.addEventListener('click', function (event) {
+      if (event.target.closest('a[data-fancybox="multimedia"]')) {
+        setTimeout(enableVideoAudio, 100);
+      }
+    });
+
+    if (window.jQuery) {
+      window.jQuery(document).on('afterShow.fb', enableVideoAudio);
+    }
+  })();
+</script>
